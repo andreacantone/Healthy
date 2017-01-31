@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0691560A1E3F5A7400C2E542 /* Profilo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069156091E3F5A7400C2E542 /* Profilo.swift */; };
+		06A0B2D91E3FA81300E3E0E3 /* ModifyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A0B2D81E3FA81300E3E0E3 /* ModifyProfile.swift */; };
 		3CC4B6E11E3E705000C3A10D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4B6E01E3E705000C3A10D /* AppDelegate.swift */; };
 		3CC4B6E31E3E705000C3A10D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4B6E21E3E705000C3A10D /* ViewController.swift */; };
 		3CC4B6E61E3E705000C3A10D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4B6E41E3E705000C3A10D /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		069156091E3F5A7400C2E542 /* Profilo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profilo.swift; sourceTree = SOURCE_ROOT; };
+		06A0B2D81E3FA81300E3E0E3 /* ModifyProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyProfile.swift; sourceTree = "<group>"; };
 		3CC4B6DD1E3E705000C3A10D /* MenuLaterale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuLaterale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC4B6E01E3E705000C3A10D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CC4B6E21E3E705000C3A10D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				3CC4B6E91E3E705000C3A10D /* LaunchScreen.storyboard */,
 				3CC4B6EC1E3E705000C3A10D /* Info.plist */,
 				3CC4B6F21E3E70BC00C3A10D /* MenuLaterale-Bridging-Header.h */,
+				06A0B2D81E3FA81300E3E0E3 /* ModifyProfile.swift */,
 			);
 			path = MenuLaterale;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				3CC4B6F71E3E822200C3A10D /* ViewController1.swift in Sources */,
 				3CC4B6FB1E3E823C00C3A10D /* ViewController3.swift in Sources */,
 				3CC4B6FF1E3E825000C3A10D /* ViewController5.swift in Sources */,
+				06A0B2D91E3FA81300E3E0E3 /* ModifyProfile.swift in Sources */,
 				3CC4B6E31E3E705000C3A10D /* ViewController.swift in Sources */,
 				3CC4B6E11E3E705000C3A10D /* AppDelegate.swift in Sources */,
 				0691560A1E3F5A7400C2E542 /* Profilo.swift in Sources */,
