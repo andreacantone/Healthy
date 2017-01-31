@@ -74,7 +74,8 @@ class ViewController1: UIViewController {
             destinationController.newICHO = ICHO
             destinationController.newEmail = Email
             destinationController.newPassword = Password
-            destinationController.newImage = Image
+            destinationController.newImage = "ominopc"
+            destinationController.newBirthdate = Birthdate
             
         }
     }

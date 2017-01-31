@@ -47,11 +47,11 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="101"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Wwt-Py-5Jo" id="SMo-Ik-WBy">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z22-Ne-peC">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="100"/>
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="100.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -201,13 +201,68 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grafici" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geh-xB-spq">
-                                <rect key="frame" x="128" y="323" width="160" height="159"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Glycemic Average" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTV-df-H2t">
+                                <rect key="frame" x="16" y="386" width="219" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="leV-gu-wpE">
+                                <rect key="frame" x="262" y="396" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p3V-xg-8gM">
+                                <rect key="frame" x="16" y="445" width="343" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Insert New Value" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Vy-Wr-VSU">
+                                        <rect key="frame" x="57" y="8" width="228" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mjd-nH-07s">
+                                        <rect key="frame" x="57" y="75" width="228" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2L-eV-Ayr">
+                                        <rect key="frame" x="114" y="129" width="115" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Salva"/>
+                                        <connections>
+                                            <action selector="addValue:" destination="0Cz-XS-s9w" eventType="touchUpInside" id="rLx-gW-NAK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </view>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="BiL-fl-hyK">
+                                <rect key="frame" x="16" y="72" width="343" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Day"/>
+                                    <segment title="Week"/>
+                                    <segment title="Month"/>
+                                </segments>
+                                <connections>
+                                    <action selector="indexChanged:" destination="0Cz-XS-s9w" eventType="valueChanged" id="Rxv-wu-GRH"/>
+                                </connections>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R8H-ne-Qhk" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="16" y="124" width="343" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -215,7 +270,13 @@
                         <barButtonItem key="leftBarButtonItem" title="Menù" id="VjO-c1-mLG"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="Salva" destination="Z2L-eV-Ayr" id="Kxu-El-1IG"/>
                         <outlet property="menuButton" destination="VjO-c1-mLG" id="TWG-MJ-afE"/>
+                        <outlet property="segmentControl" destination="BiL-fl-hyK" id="UaB-Cb-LyZ"/>
+                        <outlet property="segmentedControl" destination="BiL-fl-hyK" id="kkv-Aj-hAf"/>
+                        <outlet property="textLabel" destination="leV-gu-wpE" id="nLO-fs-c7g"/>
+                        <outlet property="valore" destination="mjd-nH-07s" id="R9j-9s-urO"/>
+                        <outlet property="viewForChart" destination="R8H-ne-Qhk" id="2hD-7m-3cS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jyS-nH-Ol6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -565,6 +626,15 @@
                         <barButtonItem key="leftBarButtonItem" title="Menù" id="XUi-aM-cmQ" userLabel="Menù"/>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="newB" destination="I7m-gw-kwp" id="4e2-ae-gQp"/>
+                        <outlet property="newE" destination="SfD-d2-XzA" id="uMX-lA-gzK"/>
+                        <outlet property="newI" destination="k8X-EJ-GZ5" id="bAA-kJ-rRf"/>
+                        <outlet property="newIm" destination="v75-b9-77q" id="hdx-RI-uV1"/>
+                        <outlet property="newN" destination="iQE-T0-Nmm" id="Jx3-gA-dt0"/>
+                        <outlet property="newP" destination="9bO-vQ-YPW" id="ulg-Jc-gEc"/>
+                        <outlet property="newS" destination="ZPq-Bd-XaJ" id="Zfg-Ez-DuX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j1z-cv-xfN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -9,12 +9,12 @@
 import UIKit
 
 class ModifyProfile: UIViewController {
-    @IBOutlet var newN : UILabel!
-    @IBOutlet var newS: UILabel!
-    @IBOutlet var newI : UILabel!
-    @IBOutlet var newE : UILabel!
-    @IBOutlet var newB : UILabel!
-    @IBOutlet var newP: UILabel!
+    @IBOutlet var newN : UITextField!
+    @IBOutlet var newS: UITextField!
+    @IBOutlet var newI : UITextField!
+    @IBOutlet var newE : UITextField!
+    @IBOutlet var newB : UITextField!
+    @IBOutlet var newP: UITextField!
     @IBOutlet var newIm : UIImageView!
 
     var newName : String = ""
