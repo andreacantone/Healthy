@@ -36,13 +36,17 @@ class ViewController3: UIViewController, UITextFieldDelegate{
         let mese_c = getMonth(data)!
         let sett_c = getWeekOfMonth(data)!
         let giorno_c = getDayOfWeek(data)!
-        if valore.text != ""{
+        let letters = NSCharacterSet.letters
+        let range = valore.text!.rangeOfCharacter(from: letters)
+        if (valore.text != "" && range == nil){
+            if (Double(valore.text!))! >= 0.00{
             current_year.mesi[mese_c-1].settimane[sett_c-1].giorni[giorno_c-1].values.append(Double(valore.text!)!)
-            support_day.append(timeString)
-            period = support_day
-            let values = current_year.mesi[mese_c-1].settimane[sett_c-1].giorni[giorno_c-1].values
-            setChart(dataEntryX: period, dataEntryY: values)
-            textLabel.text = String(average(nums: values))
+                support_day.append(timeString)
+                period = support_day
+                let values = current_year.mesi[mese_c-1].settimane[sett_c-1].giorni[giorno_c-1].values
+                setChart(dataEntryX: period, dataEntryY: values)
+                textLabel.text = String(average(nums: values))
+            }
         }
         else{
             let alertController = UIAlertController(title: "Attention!", message: "Insert a valid value!", preferredStyle: UIAlertControllerStyle.alert)
