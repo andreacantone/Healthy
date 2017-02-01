@@ -252,7 +252,7 @@ class ViewController3: UIViewController, UITextFieldDelegate{
             
             disclaimerHasBeenDisplayed = true
             
-            let alertController = UIAlertController(title: "Welcome!", message: "Here you can check and annotate your glycemic values!", preferredStyle: UIAlertControllerStyle.alert)
+            let alertController = UIAlertController(title: "Welcome!", message: "Here You can check and annotate your glycemic values!", preferredStyle: UIAlertControllerStyle.alert)
             alertController.addAction(UIAlertAction(title: "Let's start!", style: UIAlertActionStyle.default,handler: nil))
             self.present(alertController, animated: true, completion: nil)
         }
