@@ -20,7 +20,6 @@
 		3CC4B6FB1E3E823C00C3A10D /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4B6FA1E3E823C00C3A10D /* ViewController3.swift */; };
 		3CC4B6FD1E3E824600C3A10D /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4B6FC1E3E824600C3A10D /* ViewController4.swift */; };
 		3CC4B6FF1E3E825000C3A10D /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4B6FE1E3E825000C3A10D /* ViewController5.swift */; };
-		AC4531FE1E41F4EF000D806B /* Librerie esterne in Resources */ = {isa = PBXBuildFile; fileRef = AC4531FD1E41F4EF000D806B /* Librerie esterne */; };
 		AC79E1871E4144710058989F /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC79E1821E4144620058989F /* Charts.framework */; };
 		AC79E1881E4144710058989F /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC79E1821E4144620058989F /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -88,7 +87,6 @@
 		3CC4B6FA1E3E823C00C3A10D /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		3CC4B6FC1E3E824600C3A10D /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		3CC4B6FE1E3E825000C3A10D /* ViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
-		AC4531FD1E41F4EF000D806B /* Librerie esterne */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Librerie esterne"; path = "../../../Downloads/Librerie esterne"; sourceTree = "<group>"; };
 		AC79E17B1E4144620058989F /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Downloads/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +113,6 @@
 				3CC4B6DF1E3E705000C3A10D /* MenuLaterale */,
 				3CC4B6DE1E3E705000C3A10D /* Products */,
 				AC79E17B1E4144620058989F /* Charts.xcodeproj */,
-				AC4531FD1E41F4EF000D806B /* Librerie esterne */,
 			);
 			sourceTree = "<group>";
 		};
@@ -248,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC4531FE1E41F4EF000D806B /* Librerie esterne in Resources */,
 				3CC4B6EB1E3E705000C3A10D /* LaunchScreen.storyboard in Resources */,
 				3CC4B6E81E3E705000C3A10D /* Assets.xcassets in Resources */,
 				3CC4B6E61E3E705000C3A10D /* Main.storyboard in Resources */,
